@@ -1,6 +1,5 @@
 import { type Either, right } from "@/core/either";
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
-import type { AnswersRepository } from "@/domain/forum/application/repositories/answers-repository";
 import type { QuestionsRepository } from "@/domain/forum/application/repositories/questions-repository";
 import { Question } from "@/domain/forum/enterprise/entities/question";
 import { QuestionAttachment } from "@/domain/forum/enterprise/entities/question-attachment";

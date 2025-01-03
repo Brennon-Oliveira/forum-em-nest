@@ -1,6 +1,5 @@
 import { Entity } from "@/core/entities/entity";
 import type { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
-import type { Optional } from "@/core/types/optional";
 
 export type CommentProps = {
 	authorId: UniqueEntityID;

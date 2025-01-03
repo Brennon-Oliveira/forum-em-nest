@@ -4,7 +4,7 @@ import { ResourceNotFoundError } from "@/core/errors/resource-not-found-error";
 import { DeleteAnswerCommentUseCase } from "@/domain/forum/application/use-cases/delete-answer-comment";
 import { makeAnswerComment } from "@test/factories/make-answer-comment";
 import { InMemoryAnswerCommentsRepository } from "@test/repositories/in-memory-answer-comments-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 
 let inMemoryAnswerCommentsRepository: InMemoryAnswerCommentsRepository;
 let sut: DeleteAnswerCommentUseCase;

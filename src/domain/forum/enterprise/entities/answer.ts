@@ -1,5 +1,4 @@
 import { AggregateRoot } from "@/core/entities/agreggate-root";
-import { Entity } from "@/core/entities/entity";
 import type { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import type { Optional } from "@/core/types/optional";
 import { AnswerAttachmentsList } from "@/domain/forum/enterprise/entities/answer-attachments-list";

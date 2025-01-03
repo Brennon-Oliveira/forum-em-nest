@@ -1,13 +1,8 @@
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import {
-	Question,
-	type QuestionProps,
-} from "@/domain/forum/enterprise/entities/question";
-import {
 	QuestionComment,
 	type QuestionCommentProps,
 } from "@/domain/forum/enterprise/entities/question-comment";
-import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { faker } from "@faker-js/faker";
 
 export function makeQuestionComment(

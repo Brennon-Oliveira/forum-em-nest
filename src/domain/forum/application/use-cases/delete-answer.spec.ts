@@ -5,7 +5,7 @@ import { DeleteAnswerUseCase } from "@/domain/forum/application/use-cases/delete
 import { makeAnswer } from "@test/factories/make-answer";
 import { makeAnswerAttachment } from "@test/factories/make-answer-attachment";
 import { InMemoryAnswerAttachmentsRepository } from "@test/repositories/in-memory-answer-attachments-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { InMemoryAnswersRepository } from "../../../../../test/repositories/in-memory-answers-repository";
 
 let inMemoryAnswerAttachmentRepository: InMemoryAnswerAttachmentsRepository;

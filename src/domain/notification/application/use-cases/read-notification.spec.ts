@@ -2,7 +2,6 @@ import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import { NotAllowedError } from "@/core/errors/not-allowed-error";
 import { ResourceNotFoundError } from "@/core/errors/resource-not-found-error";
 import { ReadNotificationUseCase } from "@/domain/notification/application/use-cases/read-notification";
-import { SendNotificationUseCase } from "@/domain/notification/application/use-cases/send-notification";
 import { makeNotification } from "@test/factories/make-notification";
 import { InMemoryNotificationsRepository } from "@test/repositories/in-memory-notifications-repository";
 import { beforeEach, describe, expect, it } from "vitest";

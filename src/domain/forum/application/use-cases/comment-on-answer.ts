@@ -3,7 +3,6 @@ import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import { ResourceNotFoundError } from "@/core/errors/resource-not-found-error";
 import type { AnswerCommentsRepository } from "@/domain/forum/application/repositories/answer-comments-repository";
 import type { AnswersRepository } from "@/domain/forum/application/repositories/answers-repository";
-import { Answer } from "@/domain/forum/enterprise/entities/answer";
 import { AnswerComment } from "@/domain/forum/enterprise/entities/answer-comment";
 
 interface CommentOnAnswerUseCaseRequest {

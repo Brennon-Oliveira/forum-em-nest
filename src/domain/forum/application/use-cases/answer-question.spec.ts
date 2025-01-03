@@ -1,5 +1,4 @@
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
-import type { AnswersRepository } from "@/domain/forum/application/repositories/answers-repository";
 import { AnswerQuestionUseCase } from "@/domain/forum/application/use-cases/answer-question";
 import { InMemoryAnswerAttachmentsRepository } from "@test/repositories/in-memory-answer-attachments-repository";
 import { beforeEach, describe, expect, test } from "vitest";

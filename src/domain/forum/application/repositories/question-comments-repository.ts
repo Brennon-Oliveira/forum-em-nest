@@ -1,5 +1,4 @@
 import type { PaginationParams } from "@/core/repositories/pagination-params";
-import type { Question } from "@/domain/forum/enterprise/entities/question";
 import type { QuestionComment } from "@/domain/forum/enterprise/entities/question-comment";
 
 export interface QuestionCommentsRepository {

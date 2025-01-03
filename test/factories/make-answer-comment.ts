@@ -3,11 +3,6 @@ import {
 	AnswerComment,
 	type AnswerCommentProps,
 } from "@/domain/forum/enterprise/entities/answer-comment";
-import {
-	Question,
-	type QuestionProps,
-} from "@/domain/forum/enterprise/entities/question";
-import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { faker } from "@faker-js/faker";
 
 export function makeAnswerComment(

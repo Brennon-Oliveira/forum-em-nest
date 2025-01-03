@@ -1,6 +1,6 @@
 import { FetchRecentQuestions } from "@/domain/forum/application/use-cases/fetch-recent-questions";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { makeQuestion } from "../../../../../test/factories/make-question";
 import { InMemoryQuestionsRepository } from "../../../../../test/repositories/in-memory-questions-repository";
 

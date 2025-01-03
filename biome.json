@@ -9,6 +9,12 @@
 			},
 			"complexity": {
 				"noBannedTypes": "off"
+			},
+			"correctness": {
+				"noUnusedImports": {
+					"level": "error",
+					"fix": "safe"
+				}
 			}
 		}
 	},

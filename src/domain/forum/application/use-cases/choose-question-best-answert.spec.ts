@@ -1,14 +1,12 @@
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import { NotAllowedError } from "@/core/errors/not-allowed-error";
 import { ChooseQuestionBestAnswerUseCase } from "@/domain/forum/application/use-cases/choose-question-best-answert";
-import { DeleteAnswerUseCase } from "@/domain/forum/application/use-cases/delete-answer";
-import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { makeAnswer } from "@test/factories/make-answer";
 import { makeQuestion } from "@test/factories/make-question";
 import { InMemoryAnswerAttachmentsRepository } from "@test/repositories/in-memory-answer-attachments-repository";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
 import { InMemoryQuestionsRepository } from "@test/repositories/in-memory-questions-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { InMemoryAnswersRepository } from "../../../../../test/repositories/in-memory-answers-repository";
 
 let inMemoryAnswerAttachmentRepository: InMemoryAnswerAttachmentsRepository;

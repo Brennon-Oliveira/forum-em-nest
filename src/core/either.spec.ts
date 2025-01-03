@@ -1,4 +1,4 @@
-import { type Either, Left, left, right } from "@/core/either";
+import { type Either, left, right } from "@/core/either";
 import { describe, expect, test } from "vitest";
 
 function doSomething(shouldSuccess: boolean): Either<string, number> {

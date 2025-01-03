@@ -3,7 +3,6 @@ import {
 	Answer,
 	type AnswerProps,
 } from "@/domain/forum/enterprise/entities/answer";
-import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { faker } from "@faker-js/faker";
 
 export function makeAnswer(

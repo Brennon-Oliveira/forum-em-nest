@@ -2,7 +2,7 @@ import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import { FetchQuestionCommentUseCase } from "@/domain/forum/application/use-cases/fetch-question-comments";
 import { makeQuestionComment } from "@test/factories/make-question-comment";
 import { InMemoryQuestionCommentsRepository } from "@test/repositories/in-memory-question-comments-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 
 let inMemoryQuestionCommentRepository: InMemoryQuestionCommentsRepository;
 let sut: FetchQuestionCommentUseCase;

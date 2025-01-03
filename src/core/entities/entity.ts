@@ -1,4 +1,3 @@
-import { randomUUID } from "node:crypto";
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 
 export abstract class Entity<T> {

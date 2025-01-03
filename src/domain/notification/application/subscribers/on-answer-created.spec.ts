@@ -12,7 +12,6 @@ import { InMemoryAnswersRepository } from "@test/repositories/in-memory-answers-
 import { InMemoryNotificationsRepository } from "@test/repositories/in-memory-notifications-repository";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
 import { InMemoryQuestionsRepository } from "@test/repositories/in-memory-questions-repository";
-import { waitFor } from "@test/utils/wait-for";
 import {
 	type MockInstance,
 	beforeEach,

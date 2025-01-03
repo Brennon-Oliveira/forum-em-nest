@@ -1,4 +1,3 @@
-import type { PaginationParams } from "@/core/repositories/pagination-params";
 import type { AnswerAttachmentsRepository } from "@/domain/forum/application/repositories/answer-attachments-repository";
 import type { AnswerAttachment } from "@/domain/forum/enterprise/entities/awnser-attachment";
 

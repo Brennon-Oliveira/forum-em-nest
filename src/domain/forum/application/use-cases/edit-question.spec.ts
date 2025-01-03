@@ -4,7 +4,7 @@ import { EditQuestionUseCase } from "@/domain/forum/application/use-cases/edit-q
 import { makeQuestion } from "@test/factories/make-question";
 import { makeQuestionAttachment } from "@test/factories/make-question-attachment";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
-import { beforeEach, describe, expect, it, test } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { InMemoryQuestionsRepository } from "../../../../../test/repositories/in-memory-questions-repository";
 
 let inMemoryQuestionAttachmentRepository: InMemoryQuestionAttachmentsRepository;

@@ -1,7 +1,6 @@
 import { AggregateRoot } from "@/core/entities/agreggate-root";
 import { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import type { Optional } from "@/core/types/optional";
-import type { QuestionAttachment } from "@/domain/forum/enterprise/entities/question-attachment";
 import { QuestionAttachmentsList } from "@/domain/forum/enterprise/entities/question-attachments-list";
 import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { QuestionBestAnswerChosenEvent } from "@/domain/forum/enterprise/events/question-best-answer-chosen-event";

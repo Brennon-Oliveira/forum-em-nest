@@ -1,5 +1,4 @@
 import type { Either } from "@/core/either";
-import { OnAnswerCreated } from "@/domain/notification/application/subscribers/on-answer-created";
 import { OnQuestionBestAnswerChosen } from "@/domain/notification/application/subscribers/on-question-best-answer-chosen";
 import {
 	SendNotificationUseCase,
@@ -13,7 +12,6 @@ import { InMemoryAnswersRepository } from "@test/repositories/in-memory-answers-
 import { InMemoryNotificationsRepository } from "@test/repositories/in-memory-notifications-repository";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
 import { InMemoryQuestionsRepository } from "@test/repositories/in-memory-questions-repository";
-import { waitFor } from "@test/utils/wait-for";
 import {
 	type MockInstance,
 	beforeEach,

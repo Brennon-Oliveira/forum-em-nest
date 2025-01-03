@@ -1,11 +1,8 @@
 import { type Either, left, right } from "@/core/either";
-import type { UniqueEntityID } from "@/core/entities/value-objects/unique-entity-id";
 import { NotAllowedError } from "@/core/errors/not-allowed-error";
 import { ResourceNotFoundError } from "@/core/errors/resource-not-found-error";
-import type { AnswersRepository } from "@/domain/forum/application/repositories/answers-repository";
 import type { QuestionAttachmentsRepository } from "@/domain/forum/application/repositories/question-attachments-repository";
 import type { QuestionsRepository } from "@/domain/forum/application/repositories/questions-repository";
-import { Question } from "@/domain/forum/enterprise/entities/question";
 
 interface DeleteQuestionUseCaseRequest {
 	questionId: string;

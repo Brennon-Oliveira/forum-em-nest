@@ -1,5 +1,4 @@
 import { GetQuestionBySlug } from "@/domain/forum/application/use-cases/get-question-by-slug";
-import { Question } from "@/domain/forum/enterprise/entities/question";
 import { Slug } from "@/domain/forum/enterprise/entities/value-objects/slug";
 import { InMemoryQuestionAttachmentsRepository } from "@test/repositories/in-memory-question-attachments-repository";
 import { beforeEach, describe, expect, test } from "vitest";
