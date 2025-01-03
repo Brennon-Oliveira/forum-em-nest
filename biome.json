@@ -16,5 +16,12 @@
 		"parser": {
 			"unsafeParameterDecoratorsEnabled": true
 		}
+	},
+	"files": {
+		"ignore": ["./dist/**/*"]
+	},
+	"organizeImports": {
+		"enabled": true,
+		"include": ["./src/**/*.ts"]
 	}
 }
